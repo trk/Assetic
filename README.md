@@ -17,7 +17,7 @@ Assetic Module for Ionize CMS http://ionizecms.com . Module Help you to manage y
 **Example :**
 
 * Your **ENVIRONMENT** is **development**, your output file will be **development.given.output.name.ext**
-* IF you turn **ENVIRONMENT** is **production**, your file will have given output filename : **given.output.name.ext**
+* IF you turn **ENVIRONMENT** from **development** to **production**, your file will have given output filename : **given.output.name.ext**
 
 
 
