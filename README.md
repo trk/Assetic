@@ -1,4 +1,4 @@
-Assetic
+Assetic Module For [Ionize CMS](http://ionizecms.com/ "Ionize CMS")
 =======
 **Author :** [İskender TOTOĞLU](http://altivebir.com.tr "ALTI ve BIR IT.")
 
@@ -7,6 +7,17 @@ Assetic
 **Ionize Version :** 1.0.6 `Didn't tested for older versions`
 
 Assetic Module for Ionize CMS http://ionizecms.com . Module Help you to manage your assets, compile and minify javascript and stylesheet files.
+
+>IF **ENVIRONMENT** is **production** module will make all give files one file and will compile it.
+
+>IF **ENVIRONMENT** isn't **production** module will make all given files one file, won't compile it.
+
+**Example : **
+
+* Your **ENVIRONMENT** is **development**, your output file will be **development.given.output.name.ext**
+* IF you turn **ENVIRONMENT** is **production**, your file will have given output filename : **given.output.name.ext**
+
+
 
 ### USAGE ###
 
