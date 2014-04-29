@@ -10,6 +10,8 @@ Assetic Module for Ionize CMS http://ionizecms.com . Module Help you to manage y
 
 >Rename downloaded file as **Assetic** !
 
+> **! OUTPUT PATH need to be Writable !**
+
 >IF **ENVIRONMENT** is **production** module will make all give files one file and will compile it.
 
 >IF **ENVIRONMENT** isn't **production** module will make all given files one file, won't compile it.
@@ -102,8 +104,8 @@ Assetic Module for Ionize CMS http://ionizecms.com . Module Help you to manage y
 			<ion:AssetCollection collection="SiteJavascript" path="assets/js" filename="site.min.js">
 				
 				<!-- Call each file by writing filepath with filename and extention -->
-				<ion:FileAsset src="assets/css/bootstrap.js" />
-				<ion:FileAsset src="assets/css/application.js" />
+				<ion:FileAsset src="assets/js/bootstrap.js" />
+				<ion:FileAsset src="assets/js/application.js" />
 				
 				<!-- Use cssmin for compress compiled file -->
 				<ion:Compressor method="jsmin" />
