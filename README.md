@@ -8,6 +8,8 @@ Assetic Module For [Ionize CMS](http://ionizecms.com/ "Ionize CMS")
 
 Assetic Module for Ionize CMS http://ionizecms.com . Module Help you to manage your assets, compile and minify javascript and stylesheet files.
 
+>Rename downloaded file as **Assetic** !
+
 >IF **ENVIRONMENT** is **production** module will make all give files one file and will compile it.
 
 >IF **ENVIRONMENT** isn't **production** module will make all given files one file, won't compile it.
