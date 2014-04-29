@@ -143,10 +143,10 @@ Assetic Module for Ionize CMS http://ionizecms.com . Module Help you to manage y
 
 | Method       	| Type           	| File Requered ?|
 | -------------	|:-------------:	|:-------------: |
-| yui			| ** - **			|[Download Latest YUI Compressor](https://github.com/yui/yuicompressor/releases), Rename downloaded jar file as **yuicompressor.jar** and copy **yuicompressor.jar** file to **(modules/Assetic/libraries/Compressor/)** folder. |
+| yui			| **-**			|[Download Latest YUI Compressor](https://github.com/yui/yuicompressor/releases), Rename downloaded jar file as **yuicompressor.jar** and copy **yuicompressor.jar** file to **(modules/Assetic/libraries/Compressor/)** folder. |
 | google		| **jar** or **api**	| For **type** is **api** you don't need **JAR** file for compiling, its using http service. For Local Compile : [Download Latest Closure Compiler](http://dl.google.com/closure-compiler/compiler-latest.zip), Rename downloaded jar file as **compiler.jar** and copy **compiler.jar** file to **(modules/Assetic/libraries/Compressor/)** folder. |
-| cssmin		| ** - **			| ** - ** |
-| jsmin			| ** - **			| ** - ** |
+| cssmin		| **-**			| **-** |
+| jsmin			| **-**			| **-** |
 
 
 **NOTE :**
