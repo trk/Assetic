@@ -1,6 +1,6 @@
 <?php
 
-class Assetic_Tags extends TagManager_Form
+class Assetic_Tags extends TagManager
 {
     private static $AssetManager;
     private static $AssetReference;
@@ -659,14 +659,14 @@ class Assetic_Tags extends TagManager_Form
                     {
                         case 'FileAsset':
                             self::$ci->Collections[] = new Assetic\Asset\AssetCollection(array(
-                                new Assetic\Asset\FileAsset(self::$ci->SourcePath, array(new Assetic\Filter\Sass\ScssFilter()))
+                                new Assetic\Asset\FileAsset(self::$ci->SourcePath, array(new Assetic\Filter\ScssphpFilter()))
                             ));
                             return TRUE;
                             break;
 
                         case 'GlobAsset':
                             self::$ci->Collections[] = new Assetic\Asset\AssetCollection(array(
-                                new Assetic\Asset\GlobAsset(self::$ci->SourcePath, array(new Assetic\Filter\Sass\ScssFilter()))
+                                new Assetic\Asset\GlobAsset(self::$ci->SourcePath, array(new Assetic\Filter\ScssphpFilter()))
                             ));
                             return TRUE;
                             break;
