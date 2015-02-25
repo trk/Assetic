@@ -465,6 +465,8 @@ class Assetic_Tags extends TagManager
     public static function tag_AssetURL(FTL_Binding $tag)
     {
         $url = $tag->getAttribute('url', NULL);
+        $async = $tag->getAttribute('async', false);
+        $async = ($async) ? 'async' : '';
 
         if( file_exists(self::$ci->OutputPath . self::$ci->DP . self::$ci->OutputFileName) )
         {
@@ -484,7 +486,7 @@ class Assetic_Tags extends TagManager
                         break;
 
                     case 'js':
-                        $result = '<script type="text/javascript" src="' . self::$ci->OutputFileURL . '"></script>';
+                        $result = '<script ' . $async . ' type="text/javascript" src="' . self::$ci->OutputFileURL . '"></script>';
                         break;
 
                 }
